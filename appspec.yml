@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-   - source: /
+   - source: /travel/login.html
      destination: /var/www/html
 permissions:
    - object: /var/www/html
@@ -9,9 +9,7 @@ permissions:
      owner: apache
      group: apache
      mode: 755
-     
-        
-       hooks:
+hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
       runas: root
