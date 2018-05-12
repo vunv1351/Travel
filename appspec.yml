@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-   - source: /travel/login.html
+   - source: /login.html
      destination: /var/www/html
 permissions:
    - object: /var/www/html
